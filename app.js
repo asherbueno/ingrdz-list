@@ -14,7 +14,7 @@ var app = express();
 var mongoose = require('mongoose');
 // recipes is the db we are creating
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://test:test@ds139801.mlab.com:39801/ingredients');
+mongoose.connect('mongodb://asherbueno:Moshimoro28@ds143201.mlab.com:43201/ingredientscfaz');
 const { connection: db } = mongoose;
 
 db.on('error', console.error.bind(console, 'connection error'));
